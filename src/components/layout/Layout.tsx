@@ -102,7 +102,7 @@ export const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) =>
                         <div><strong>OUTPUT:</strong> WATERMARKED PDF.</div>
                         <div style={{ marginTop: '0.5rem' }}>
                             <a
-                                href="https://x.com/roulette22269"
+                                href="https://x.com/redactroulette"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 style={{ color: '#444444', textDecoration: 'underline', fontWeight: 'bold', fontSize: '2rem' }}
