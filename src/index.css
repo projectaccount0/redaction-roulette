@@ -1,0 +1,67 @@
+/* Global Theme Reset - REDACTION ROULETTE (White Paper Edition) */
+:root {
+    --color-bg: #f4f1ea;
+    /* Old paper white */
+    --color-panel-bg: #ffffff;
+    --color-panel-border: #000000;
+    --color-text-primary: #000000;
+    --color-accent-red: #cc0000;
+    /* Stamped red */
+    --color-accent-dim: #880000;
+    --color-dashed-border: #444444;
+
+    /* Typewriter font stack */
+    --font-mono: "Courier Prime", "Courier New", Courier, monospace;
+    --font-serif: "Times New Roman", Times, serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    /* User-provided background photo */
+    background-image: url('/background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: var(--color-text-primary);
+    font-family: var(--font-mono);
+    -webkit-font-smoothing: antialiased;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: bold;
+    margin: 0;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+}
+
+button {
+    cursor: pointer;
+    font-family: var(--font-mono);
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #e0e0e0;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #333;
+    border: 1px solid #000;
+}
